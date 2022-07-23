@@ -1,0 +1,17 @@
+name: Video360
+version: '${project.version}'
+main: com.chubbyFreak.video360.Video360
+api-version: 1.16
+authors: [ chubbyFreak ]
+description: Displays 360 videos (in the form of equirectangular projections) as a hollow sphere of blocks.
+
+commands:
+  mode:
+    usage: /<command> render|stream
+    description: Switches mode to render or stream.
+  capture:
+    usage: /<command>
+    description: Captures frame to be rendered on sphere.
+  canvas:
+    usage: /<command> sphere|flat
+    description: Switches canvas to sphere or flat.
